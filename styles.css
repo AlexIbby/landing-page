@@ -1,0 +1,193 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box; 
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width:80%; 
+    margin: auto; 
+}
+
+/* Header */
+
+header{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding: 20px; 
+    background-color: #1F2937;
+    color:#E5E7EB;
+    padding-bottom: 3rem;
+}
+
+header h1{
+    font-size: 1.2rem;
+}
+
+header a {
+    padding-right: 25px;
+    text-decoration: none;
+    color: #E5E7EB; 
+    font-size: .80rem; 
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+/*End of Header */
+
+/*Hero*/
+.hero-container{
+    display: flex;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding-top:1rem;  
+    padding-bottom: 1rem;
+    justify-content: center;
+    align-items: flex-start; 
+    gap: 2rem; 
+}
+
+.hero-column1{
+    width:50%; 
+}
+
+.hero-container p {
+    margin-bottom: 0.7rem;
+    max-width: 400px;
+}
+
+button{
+    background-color: rgb(56, 130, 246);
+    padding-top: 5px;
+    padding-bottom: 5px; 
+    padding-left: 20px; 
+    padding-right: 20px; 
+    border-radius: 10px;
+    color:#E5E7EB;
+    font-weight: bold;
+    border: none; 
+    border-color: none;
+    transition:all .3s ease-in-out;
+}
+
+button:hover{
+    transform: scale(1.1);
+    color:white; 
+}
+
+.hero-image{
+    width:375px; 
+    border-radius: 15px;
+}
+
+@media screen and (max-width: 600px) {
+    .hero-image{
+        width:275px; 
+    }
+}
+
+/*End of Hero*/
+
+/*Main Section*/
+
+.main-header{
+    text-align: center;
+    padding: 1rem;
+}
+
+.main-images{
+    display: flex; 
+    gap: 2rem;
+    padding-bottom: 3rem;
+}
+
+.main-col{
+    width:25%; 
+}
+
+.main-col p{
+    width: 150px; 
+}
+
+.image-item{
+    width: 150px; 
+    height: 150px;
+    object-fit: cover;
+    border-radius: 15px;
+    border: #3882F6 5px solid;
+}
+
+/*Main Section*/
+#quote{
+    background-color: #E5E7EB;
+    width:100%;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    
+}
+
+.quoute-section h3{
+    font-size: 24px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.quoute-section h4{
+    padding-top: 1rem;
+    text-align: right;
+}
+/*Quoute Section*/
+
+/*Call to Action*/
+
+.call-to-action{
+    margin-top: 2rem;
+    display: flex; 
+    background-color: #3882F6;
+    color:whitesmoke;
+    padding: 2.5rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+    gap: 4rem;
+    width: 80%;
+    margin-left:auto;
+    margin-right: auto; 
+    border-radius: 12px;
+}
+
+.action_col_2{
+    align-items: flex-end;
+}
+
+.action_button{
+    border: whitesmoke 2px solid;
+}
+
+/*Call to Action*/
+
+/*Footer*/
+
+footer{
+    padding: 1rem;
+    text-align: center;
+    background-color: #1F2937;
+    color:whitesmoke; 
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
